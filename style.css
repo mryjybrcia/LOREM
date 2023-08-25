@@ -180,10 +180,12 @@ html {
   height: auto;
   width: 80%;
   margin-bottom: 3rem;
+  /* display: block;
+  margin: 0 auto; */
 }
 .hero .hero-img img {
-  height: 1000px;
-  width: 500px;
+  height: 900px;
+  width: 300px;
 }
 /* End Hero Section */
 
@@ -466,7 +468,13 @@ html {
   .hero .hero-img {
     min-width: 400px;
     max-width: 1000px;
+    margin-left: 150px;
   }
+
+  /* .hero .hero-img img {
+    display: block;
+    margin: 0 auto;
+  } */
   .about {
     width: 80%;
     margin: 0 auto;
@@ -499,6 +507,11 @@ html {
   }
   .hero .hero-info .hero-info-subheading {
     letter-spacing: 0.8rem;
+  }
+  .hero .hero-img img {
+    margin-left: 350px;
+    height: 900px;
+    width: 500px;
   }
 }
 /* End Media Query For Desktop Only  */
