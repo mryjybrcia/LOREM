@@ -477,10 +477,17 @@ html {
     text-align: left;
     padding-right: 17rem;
   }
+  .about .about-info .about-info-heading {
+    font-size: 4rem;
+  }
+  .about .about-info .about-info-desc {
+    font-size: 2rem;
+  }
   .services .services-header .services-header-desc {
     max-width: 500px;
     padding-top: 20px;
     margin: 0 auto;
+    font-size: 2em;
   }
   .services .services-info {
     flex-direction: row;
