@@ -37,8 +37,10 @@ html {
 }
 .nav-bar .brand a {
   font-family: "Flash Back - Demo", sans-serif;
-  font-size: 3rem;
+  /* font-size: 1rem; */
   color: white;
+  height: 1px;
+  width: 1px;
 }
 .nav-bar .nav-list {
   display: flex;
